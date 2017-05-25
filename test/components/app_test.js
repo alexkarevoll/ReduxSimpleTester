@@ -14,7 +14,6 @@ describe('App', () => {
   });
 
   it('shows a comment list', () => {
-    console.log(component);
     expect(component.find('.comment-list')).to.exist;
   })
 });
